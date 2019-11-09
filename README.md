@@ -1,4 +1,4 @@
-# tsrFinderM1
+# tsrFinderM2
 tsrFinderM2 identifies transcription start regions (TSRs) from PRO-Cap and similar nascent transcript sequencing datasets.
 
 Author: Mrutyunjaya Parida, David Price Lab, UIOWA
