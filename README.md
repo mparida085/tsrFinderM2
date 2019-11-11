@@ -6,7 +6,7 @@ Author: Mrutyunjaya Parida, David Price Lab, UIOWA
 ## Usage:
 tsrFinderM2 runs on Python v2.7+. The tsrFinderM2 evaluates every TSR window across the genome for the maximum 5' read density (max transcription start site) at the center of the window. tsrFinderM2I is an interface program that runs the tsrFinderM2 program. It checks for errors in a user's input. If errors are found the tsrFinderM2I program displays the usage example and parameter description prior to exiting the run. If no use input errors are found tsrFinderM2I runs tsrFinderM2 program automatically.
 
-Both tsrFinderM2 and tsrFinderM2I are intended to be run via a Python v2.7+ interpreter installed on your desired operating system of choice such as Windows, Mac or Linux. Additionally, tsrFinderM2I requires the joblib python module installed prior to the tsrFinderM2 run. If the module is missing tsrFinderM2I will guide you on installing the module. Finally, tsrFinderv2I expects the following syntax on a linux command-line interface:
+Both tsrFinderM2 and tsrFinderM2I are intended to be run via a Python v2.7+ interpreter installed on your desired operating system of choice such as Windows, Mac or Linux. Additionally, tsrFinderM2I requires the joblib python module installed prior to the tsrFinderM2 run. If the module is missing tsrFinderM2I will guide you on installing the module. Finally, tsrFinderM2I expects the following syntax on a linux command-line interface:
 
 ```
 python tsrFinderM2I <mapped-fragments.bed file> <TSR window size> <TSR read depth> <maximum fragment size> <chromosome sizes file>
