@@ -29,7 +29,7 @@ mapped-fragments.bed file: A mapped fragment bed file can be generated from alig
                            format using samtools and bedtools.
 
 TSR window size:           A desired size of the TSR window (an integer). We found TSRs are usually
-                           20bp in width and are often clustered. This parameter can be increased or
+                           200bp in width and are often clustered. This parameter can be increased or
 			   decreased to find longer or shorter sized TSRs.
 
 TSR read depth:            The minimum amount of reads per TSR (an integer). This determination of
