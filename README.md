@@ -21,8 +21,7 @@ Maintain the program files under the tsrFinderM2_dir folder.
 mapped-fragments.bed file: A mapped fragment bed file can be generated from alignment files in sam
                            format using samtools and bedtools.
 
-TSR window size:           A desired size of the TSR window (an integer). We found TSRs are usually
-                           200bp in width and are often clustered. This parameter can be increased or
+TSR window size:           A desired size of the TSR window (an integer).This parameter can be increased or
 			   decreased to find longer or shorter sized TSRs.
 
 TSR read depth:            The minimum amount of reads per TSR (an integer). This determination of
